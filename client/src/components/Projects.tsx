@@ -9,7 +9,7 @@ const Projects = () => {
   if (error) return <p>Something went wrong!</p>
 
   return (
-    <div className="row">
+    <div className="row gap-4 my-4 mx-1">
       { data.projects.length > 0 && (
         data.projects.map((project: any) => {
           return <ProjectCard key={project.id} project={project} />

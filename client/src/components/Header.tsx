@@ -1,9 +1,7 @@
-const Header = () => {
+const Header = ({ label }: { label: string }) => {
   return (
-    <nav className="navbar bg-body-tertiary">
-      <div className="container-fluid">
-        <span className="navbar-brand mb-0 h1">Navbar</span>
-      </div>
+    <nav className="mt-3">
+      <h2>{ label }</h2>
     </nav>
   );
 };

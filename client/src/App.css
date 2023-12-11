@@ -1,0 +1,16 @@
+.sidebar {
+  background-color: #FFFFFF;
+  min-height: 100vh !important;
+}
+
+.background {
+  background-color: #EFF2F5;
+}
+
+.primary {
+  background-color: #38A3FF;
+}
+
+.text-color {
+  color: #0F0F0F;
+}

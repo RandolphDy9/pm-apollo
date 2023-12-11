@@ -1,6 +1,7 @@
 import { useMutation } from '@apollo/client';
 import { DELETE_CLIENT } from '../mutations/clientMutations';
 import { GET_CLIENTS } from '../queries/clientQueries';
+import { FaTrash } from 'react-icons/fa';
 
 type ClientType = {
   id?: string;
@@ -33,7 +34,7 @@ const ClientRow = (props: { client: ClientType }) => {
       <td>{ client.phone }</td>
       <td>
         <div onClick={() => deleteClient()}>
-          Delete
+          <FaTrash size="18" />
         </div>
       </td>
     </tr>
