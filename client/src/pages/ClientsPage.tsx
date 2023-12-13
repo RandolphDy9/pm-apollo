@@ -6,7 +6,7 @@ const ClientsPage = () => {
   return (
     <div>
       <Header label="Clients" />
-      <div className="card border border-0 mb-4 shadow-md col-10 rounded-4">
+      <div className="card border border-0 my-4 shadow-md col-md-8 rounded-4">
         <div className="card-body">
           <AddClient />
           <Clients />

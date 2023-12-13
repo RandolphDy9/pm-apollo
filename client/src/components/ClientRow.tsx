@@ -33,7 +33,7 @@ const ClientRow = (props: { client: ClientType }) => {
       <td>{ client.email }</td>
       <td>{ client.phone }</td>
       <td>
-        <div onClick={() => deleteClient()}>
+        <div className="danger" onClick={() => deleteClient()}>
           <FaTrash size="18" />
         </div>
       </td>

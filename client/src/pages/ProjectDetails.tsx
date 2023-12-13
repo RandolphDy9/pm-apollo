@@ -16,11 +16,13 @@ const ProjectDetails = () => {
     <div>
       <Header label="Project Details" />
       {!loading && !error && (
-        <div className="card col-8">
+        <div className="card col-md-6 border-0 rounded-4">
           <div className="card-body container">
-            <div>{ data.project.name }</div>
+            <div className="d-flex justify-content-between align-items-center">
+              <h3>{ data.project.name }</h3>
+              <div><b>Status: </b>{ data.project.status }</div>
+            </div>
             <div>{ data.project.description }</div>
-            <div>{ data.project.status }</div>
           </div>
         </div>
       )}

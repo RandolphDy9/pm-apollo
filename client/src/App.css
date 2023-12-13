@@ -14,3 +14,24 @@
 .text-color {
   color: #0F0F0F;
 }
+
+.link-item {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.active-link {
+  /* background-color: #0D6EFD; */
+  color: #0D6EFD;
+  opacity: 75%;
+  border-radius: 20px;
+}
+
+.danger {
+  color: #DC3545 !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

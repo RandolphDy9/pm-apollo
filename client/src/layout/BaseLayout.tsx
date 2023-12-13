@@ -9,10 +9,10 @@ const BaseLayout = ({ children }: BaseLayoutProps) => {
   return (
     <div className="container-fluid layout">
       <div className="row">
-        <div className="col-1 border sidebar">
+        <div className="col-md-2 border sidebar">
           <Sidebar />
         </div>
-        <div className="col-11 background">
+        <div className="col-md-10 background">
           { children }
           <Footer />
         </div>
